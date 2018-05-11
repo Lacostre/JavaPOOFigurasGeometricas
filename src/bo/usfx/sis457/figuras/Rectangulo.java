@@ -5,7 +5,7 @@ package bo.usfx.sis457.figuras;
 
 /**
  * Clase 
- * @author Marcelo
+ * @author Dell
  */
 public class Rectangulo {
     private double Base;

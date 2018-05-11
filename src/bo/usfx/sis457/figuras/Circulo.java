@@ -1,24 +1,24 @@
 /*
- * Archivo que contiene la Clase Circulo 
+ * 
  */
 package bo.usfx.sis457.figuras;
 
 /**
- * Clase Circulo que calcula el área y perímetro en base a su radio
- * @author Marcelo
+ * 
+ * @author Dell
  */
 public class Circulo {
     private float Radio;
     
     /**
-     * Método constructor, crea el Círculo con valores por defecto
+     * 
      */
     public Circulo() {
         this.Radio = 0;
     }
     
     /**
-     * Método constructor, crea el Círculo con la propiedad Radio
+     * 
      * @param radio Valor tipo float
      */
     public Circulo (float radio) {
@@ -34,7 +34,7 @@ public class Circulo {
     }
 
     /**
-     * Método que modifica el valor del radio
+     * 
      * @param radio Valor de tipo float
      */
     public void setRadio(float radio) {
@@ -42,7 +42,7 @@ public class Circulo {
     }
     
     /**
-     * Método que retorna el area del Circulo
+     *
      * @return Retorna el valor del Area de tipo double
      */
     public double getArea() {
@@ -50,7 +50,7 @@ public class Circulo {
     }
     
     /**
-     * Método que retorna el perimetro del Circulo
+     *
      * @return Retorna el valor del Perímetro de tipo double
      */
     public double getPerimetro() {

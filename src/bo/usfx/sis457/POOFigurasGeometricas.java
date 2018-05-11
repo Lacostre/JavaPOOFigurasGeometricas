@@ -3,21 +3,19 @@
  */
 package bo.usfx.sis457;
 
-import bo.usfx.sis457.figuras.*;
 import java.util.Scanner;
 
 /**
- * Clase principal que instancia objetos de las clases del paquete figuras
- * @author Marcelo
+ * 
+ * @author Dell
  */
 public class POOFigurasGeometricas {
         
     /**
      * Clase principal
-     * @param args the command line arguments
+     * 
      */
     public static void main(String[] args) {
-        // Declaracion de las variables
         Scanner entradaTeclado;
         int opcion;
         
@@ -35,8 +33,7 @@ public class POOFigurasGeometricas {
         opcion = entradaTeclado.nextInt();
         switch (opcion) {
             case 1:
-                /* Se instancia un objeto de la Clase Círculo y posteriormente se modifica el valor
-                   de su propiedad "Radio" a través de un método accesor o setter (setRadio). */
+                
                 Circulo circulo = new Circulo();
                 limpiarConsola();
                 System.out.println("+==================================================+");
@@ -62,8 +59,7 @@ public class POOFigurasGeometricas {
                 System.out.println("El Perimetro del Cuadrado es: " + cuadrado.getPerimetro());
                 break;
             case 3:
-                /* Se instancia un objeto de la Clase Rectangulo y a la vez se inicilaizan los valores
-                   de sus propiedades "Base" y "Altura" a través del método Constructor (Rectangulo). */
+
                 limpiarConsola();
                 System.out.println("+==================================================+");
                 System.out.println("| SubPrograma: Rectangulo                          |");
@@ -81,11 +77,5 @@ public class POOFigurasGeometricas {
         }
     }
     
-    /**
-     * Método que limpia pantalla de la consola. Funciona fuera de NetBeans.
-     */
-    public static void limpiarConsola() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
-    }
+
 }
